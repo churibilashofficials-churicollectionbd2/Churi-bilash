@@ -10,6 +10,9 @@ nav a{text-decoration:none;margin-left:20px;color:#7a3e3e}
 @media(max-width:768px){.hero,.grid{grid-template-columns:1fr}}
 .logo img{
     width:120px;
-    height:auto;
-    object-fit:contain;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #d4af37;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
 }
