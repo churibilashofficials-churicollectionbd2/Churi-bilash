@@ -14,9 +14,31 @@ nav a{text-decoration:none;margin-left:20px;color:#7a3e3e}
     border-radius:50%;
     object-fit:cover;
 }
-.leaf-design{
+.logo{
+    position:relative;
+    display:inline-block;
+}
+
+.logo::before{
+    content:"";
     position:absolute;
-    width:90px;
-    height:auto;
-    opacity:0.8;
+    background-image:url('https://raw.githubusercontent.com/churibilashofficials-churicollectionbd2/Churi-bilash/refs/heads/main/ChatGPT%20Image%20May%2022%2C%202026%2C%2005_39_53%20PM.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    width:70px;
+    height:70px;
+
+    top:-15px;
+    left:-25px;
+
+    opacity:0.7;
+    z-index:-1;
+}
+
+.logo img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
 }
