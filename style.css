@@ -14,3 +14,9 @@ nav a{text-decoration:none;margin-left:20px;color:#7a3e3e}
     border-radius:50%;
     object-fit:cover;
 }
+.leaf-design{
+    position:absolute;
+    width:90px;
+    height:auto;
+    opacity:0.8;
+}
